@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 function RightSide() {
   return (
-    <div className = 'w-64 bg-[#1F2428] text-white shadow-md    '>
+    <div className = 'w-64 bg-[#1F2428] text-white shadow-md  hidden md:inline-block '>
             <p className = 'my-4 mx-2 text-xs font-bold '>EXPLORER</p>
             <p className ='mx-10 my-5 text-sm'>PORTFOLIO</p>
            <Link href = '/'>

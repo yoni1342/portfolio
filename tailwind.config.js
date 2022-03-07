@@ -10,6 +10,9 @@ module.exports = {
         typewriter: ['Syne Mono']
       }
     },
+    screen: {
+      'md': '1248px'
+    },
   },
   plugins: [],
 }

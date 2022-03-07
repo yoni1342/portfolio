@@ -33,7 +33,7 @@ function about() {
                 objectFit = 'contain'
                 className = 'rounded-full '
             />
-            <p className = 'w-[50rem] text-lg my-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facilis, commodi obcaecati fugit nostrum consequuntur, placeat minus, natus animi velit libero! Nobis beatae consequatur dignissimos similique iste maiores quaerat molestias nesciunt, illo modi, voluptate repudiandae quasi? Ducimus, eveniet quia? Nisi unde necessitatibus aperiam qui temporibus magni fuga. Qui, nam magnam?</p>
+            <p className = 'w-[50rem] text-lg my-7'>Hello, my name is Yonatan Tesfaye, and I am a 20-year-old software engineer and third-year student at Addis Ababa Science and Technology University (AASTU). I began learning programming while quarantined due to the Covid 19 outbreak, using YouTube videos and Udemy courses as resources. The first course I took was buky Robert's html course, which I found to be rather intriguing. After that, I studied a lot of css, js, and python. My curiosity in online programming led me to plunge into it, when I discovered react and fell in love with it. Next Js and Tailwind CSS are two of my favorite frameworks. I'm learning Node.js, Express, and MongoDB on the backend.</p>
       </div>
       </div>
     </div>

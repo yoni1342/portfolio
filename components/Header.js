@@ -28,7 +28,7 @@ function Header() {
               <p className ='hover:link'>Help</p>
           </div>
         </div>
-        <div className = 'flex text-xs whitespace-nowrap m-4'>
+        <div className = 'flex text-xs whitespace-nowrap '>
             <p className = 'flex-grow'>Yonatan Tesfaye-Visual Studio Code</p>
         </div>
         

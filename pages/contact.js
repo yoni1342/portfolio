@@ -35,7 +35,7 @@ function contact() {
       <RightSide />
       <div className = 'w-full'>
       <Homee />
-      <div class = "bg-[#24292e] w-full h-full text-white px-10 py-5 flex space-x-96 items-center ">
+      <div class = "bg-[#24292e] w-full h-full text-white px-10 py-5 flex flex-col space-x-96 items-center md:flex-row">
           <div className = ''>
             <h1 class="text-2xl font-semibold mb-10">Reach Out via Socials</h1>
             <div className = 'flex space-x-2 text-lg items-center'>

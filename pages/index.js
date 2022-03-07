@@ -19,10 +19,10 @@ const  Home = ()=>{
         <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"/>
       </Head>
       <Header />
-      <div className ='h-full pb-14 flex'>
+      <div className ='h-full pb-14 flex '>
         <SideBar />
         <RightSide />
-        <div className = 'w-full'>
+        <div className = 'w-screen'>
         <Homee />
         <div class = "bg-[#24292e] w-full h-full text-white flex flex-col  justify-center p-9">
             <p className = 'font-yoni font-extralight text-5xl'>Yonatan Tesfaye</p> 

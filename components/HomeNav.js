@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 function Homee() {
   return (
-    <nav className = 'flex-[1] bg-[#24292e] text-white'>
+    <nav className = 'flex-[1] bg-[#24292e] text-white '>
       <div className = 'flex space-x1 bg-[#1F2428] w-full'>
           <Link href = '/'>
               <div class="pages">

@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import SideBar from '../components/SideBar'
 import RightSide from '../components/RightSide'
 import Homee from '../components/HomeNav'
-import Image from 'next/image'
+import Link from 'next/link'
 
 function github() {
   return (
@@ -27,10 +27,12 @@ function github() {
       <div class = "bg-[#24292e] w-full h-full text-white px-10 py-5 ">
 
         <h1 className = 'text-4xl font-yoni mb-10 font-semibold'>Check Out My Github</h1>
-        <button className ='bg-[#24292e] px-10 py-4 rounded-full shadow-md text-purple-500 my-3 font-bold 
-          hover:shadow-xl shadow-black active:scale-90 transtion duration-150'>
-            View Profile
-          </button> 
+        <Link href = 'https://www.github.com/yoni1342'>
+          <button className ='bg-[#24292e] px-10 py-4 rounded-full shadow-md text-purple-500 my-3 font-bold 
+            hover:shadow-xl shadow-black active:scale-90 transtion duration-150'>
+              View Profile
+            </button> 
+        </Link>
         </div> 
       </div>
     </div>
