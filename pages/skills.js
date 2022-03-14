@@ -3,31 +3,28 @@ import Header from '../components/Header'
 import SideBar from '../components/SideBar'
 import RightSide from '../components/RightSide'
 import Homee from '../components/HomeNav'
-import Image from 'next/image'
-
-function skills() {
+const About = () => {
   return (
-    <div className="h-screen w-full">
-    <Head>
-      <title>Yonatan Tesfaye | Skills</title>
-      <link rel="icon" href="/vs.svg.png" />
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-      <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"/>
-    </Head>
-    <Header />
-    <div className ='h-full pb-14 flex'>
-      <SideBar />
-      <RightSide />
-      <div className = 'w-full'>
-      <Homee />
-      <div class = "bg-[#24292e] w-full h-full text-white px-10 py-5 ">
-
+    <div className="bg-[#24292e] md:h-screen">
+      <Head>
+        <title>Yonatan Tesfaye | About</title>
+        <link rel="icon" href="/vs.svg.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"/>
+      </Head>
+      <Header />
+      <div className =' pb-14 flex'>
+        <SideBar />
+        <RightSide />
+        <div className = ' w-full ml-2 md:ml-56'>
+        <Homee />
+        <div className = "bg-[#24292e] w-full h-full text-white justify-center pb-9 px-9 space-y-8 flex flex-col">
         <h1 className = 'text-4xl font-yoni mb-10 font-semibold'>My Skills</h1>
-        <div className = 'flex justify-between w-[60rem]  ml-[10rem] font-serif'>
+        <div className = 'flex flex-col justify-between xl:flex-row items-center xl:w-[60rem]  xl:ml-[10rem] font-serif space-y-10'>
 
             <div className ='text-center'>
                 <h2 className ='text-xl font-semibold text-purple-500 mb-3'>Front-End</h2>
@@ -58,15 +55,11 @@ function skills() {
                 <p>Github</p>
             </div>
         </div>
-        </div> 
+        </div>
+        </div>
       </div>
     </div>
-  </div>
   )
 }
 
-export default skills
-
-
-
-
+export default About

@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 function Homee() {
   return (
-    <nav className = 'flex-[1] bg-[#24292e] text-white '>
-      <div className = 'flex space-x1 bg-[#1F2428] w-full'>
+    <nav className = 'bg-[#24292e] text-white w-full hidden lg:inline-block'>
+      <div className = 'flex space-x1 bg-[#1F2428]'>
           <Link href = '/'>
               <div class="pages">
                 <img src="/icons/React-icon.svg.png" alt="React js icon" className ='w-4' />

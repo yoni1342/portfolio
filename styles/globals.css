@@ -3,16 +3,14 @@
 @tailwind utilities;
 
 @layer components{
-  .link{
-    @apply cursor-pointer underline 
-  }
-  .sidebar{
-      @apply w-8 h-8 hover:text-gray-300 m-auto
-  }
-  .pages{
-    @apply py-[.2rem] px-4 flex items-center text-sm hover:bg-[#24292e] space-x-2 cursor-pointer
-  }
-  body{
-    @apply overflow-hidden
-  }
+    .link{
+        @apply cursor-pointer underline 
+      }
+    .sidebar{
+        @apply w-5 h-5 md:w-6 md:h-6 hover:text-gray-300 m-auto
+    }
+    .pages{
+        @apply py-[.2rem] px-4 flex items-center text-sm hover:bg-[#24292e] space-x-2 cursor-pointer
+    }
+   
 }

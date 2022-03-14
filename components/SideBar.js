@@ -6,8 +6,8 @@ import {BsCodeSlash} from 'react-icons/bs'
 import Link from 'next/link'
 function SideBar() {
   return (
-    <aside class="bg-[#24292e] text-gray-500 flex flex-col justify-between items-center w-14 "> 
-            <div className = 'space-y-5'>
+    <aside class="bg-[#24292e] text-gray-500 flex flex-col justify-between h-screen items-center w-10 fixed z-20"> 
+            <div className = 'space-y-5 pt-4'>
             <Link href = '/'>
               <HiOutlineDocumentDuplicate className = 'sidebar' />
             </Link>
@@ -24,7 +24,7 @@ function SideBar() {
               <AiOutlineMail className = 'sidebar' />
             </Link>
             </div>
-            <div className = 'space-y-5 my-4'>
+            <div className = 'space-y-5 pb-14 md:pb-20'>
            <Link href = '/about'>
                 <VscAccount className = 'sidebar'/>
            </Link>

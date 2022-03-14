@@ -5,9 +5,9 @@ import RightSide from '../components/RightSide'
 import Homee from '../components/HomeNav'
 import TypeWriter from 'typewriter-effect'
 import Link from 'next/link'
-const  Home = ()=>{
+const Home = () => {
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen overflow-y-hidden">
       <Head>
         <title>Yonatan Tesfaye | Home</title>
         <link rel="icon" href="/vs.svg.png" />
@@ -19,12 +19,12 @@ const  Home = ()=>{
         <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"/>
       </Head>
       <Header />
-      <div className ='h-full pb-14 flex '>
+      <div className ='h-full pb-14 flex overflow-hidden'>
         <SideBar />
         <RightSide />
-        <div className = 'w-screen'>
+        <div className = ' w-full h-screen ml-10 md:ml-56'>
         <Homee />
-        <div class = "bg-[#24292e] w-full h-full text-white flex flex-col  justify-center p-9">
+        <div className = "bg-[#24292e] w-full h-full text-white flex flex-col  justify-center pb-9 px-9 ">
             <p className = 'font-yoni font-extralight text-5xl'>Yonatan Tesfaye</p> 
             <div className = 'flex space-x-3 mt-6 font-typewriter items-center text-3xl font-bold'>
               <TypeWriter 
@@ -35,7 +35,7 @@ const  Home = ()=>{
                 }
               />
             </div>
-            <div className ='space-x-4 mt-10'>  
+            <div className ='space-x-1 mt-10 sm:space-x-4'>  
             <Link href = '/projects'>
               <button className ='bg-gray-200 px-10 py-4 rounded-full shadow-md text-purple-500 my-3 font-bold 
                 hover:shadow-xl shadow-black active:scale-90 transtion duration-150'>
