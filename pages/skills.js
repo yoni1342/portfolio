@@ -3,11 +3,11 @@ import Header from '../components/Header'
 import SideBar from '../components/SideBar'
 import RightSide from '../components/RightSide'
 import Homee from '../components/HomeNav'
-const About = () => {
+const Skills = () => {
   return (
     <div className="bg-[#24292e] md:h-screen">
       <Head>
-        <title>Yonatan Tesfaye | About</title>
+        <title>Yonatan Tesfaye | Skills</title>
         <link rel="icon" href="/vs.svg.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -32,6 +32,7 @@ const About = () => {
                 <p>CSS 3</p>
                 <p>Javascript</p>
                 <p>React Js | Next JS</p>
+                <p>Angular Js</p>
                 <p>Tailwind CSS</p>
                 <p>Bootstrap</p>
             </div>
@@ -62,4 +63,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Skills
